@@ -3,8 +3,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+body::before{
+  content: '';
+  height: 60px;
+  display: block;
+}
 @media (min-width: 768px) {
   .news-input{
     max-width: 50%;
   }
 }
+ 
+ .map iframe{
+  border-radius: 10px;
+ }
